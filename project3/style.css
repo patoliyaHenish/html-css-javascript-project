@@ -1,0 +1,144 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 36px 56px;
+}
+
+#nav-part1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#nav-part2 {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+#nav h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#nav h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#nav h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#content{
+    margin-top: 48px;
+    padding: 37px 63px;
+}
+
+#content h3{
+    font-size: 37px;
+    font-weight: 500;
+}
+
+#content h1{
+    letter-spacing: -4px;
+    margin-top: 40px;
+    font-size: 132px;
+    line-height: 120px;
+    font-weight: 500;
+    word-spacing: 9px;
+}
+
+#case{
+    padding: 37px 62px;
+    margin-top: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#case h5{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+#line{
+    height: 2px;
+    width: 120px;
+    background-color: black;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 62px;
+    gap: 85px;
+}
+
+.elem{
+    width: 50%;
+}
+
+.elem-img{
+    background-color: rgb(174, 217, 232);
+    height: 580px;
+    width: 100%;
+    border-radius: 28px;
+}
+
+#img1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/1200px-Sketch_Logo.svg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img2{
+    background-image: url(https://cdn.dribbble.com/userupload/12061047/file/original-236372c57d14a9559907ea6e7dc44238.png?resize=1600x1055);
+    background-size: contain;
+    /* background-position: center; */
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 0px;
+}
+
+.bottom i{
+    padding: 0px 50px;
+}

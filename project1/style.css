@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+}
+
+#btn2 {
+    border: none;
+    color: white;
+    background-color: orangered;
+}
+
+#main>h1{
+    width: 100%;
+    text-align: center;
+    font-size: 145px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3{
+    transform: translate(-50%, -50%) rotate(-2  0deg);
+}
+
+.dot{
+    position: absolute;
+    bottom: 7%;
+    left: 3%;
+    font-size: 50px;
+    color: red;
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+
+#icons{
+    position: absolute;
+    bottom: 7%;
+    right: 0;
+    margin-right: 60px;
+}
+
+#txt-right{
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    margin-right: 30px;
+    font-size: 13px;
+}
